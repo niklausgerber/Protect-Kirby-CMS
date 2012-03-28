@@ -94,10 +94,10 @@ This snippet handles the complete password protection.
 ### site/templates/protect.php
 This is the template for your password-protected site. Following code must be added on the first line:
 
-<?php
-if ($page->password() != '')
-  snippet('protect');
-?>
+	<?php
+		if ($page->password() != '')
+  		snippet('protect');
+	?>
 
 This will verify if you set a password in your content.txt file. If a password has been found it will display the login mask. If no password is present it will directly render the page.
 
