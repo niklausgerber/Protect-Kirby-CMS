@@ -78,10 +78,10 @@ You can leave the CSS away. It contains the styling for the login form.
 ### content/protected-site/protect.txt
 This file contains your site content. Naming it protect will load the protect.php template.
 
-Username: //Your username
-----
-Password: //Your password
-----
+	Username: //Your username
+	----
+	Password: //Your password
+	----
 
 If you leave the password blank there will be no authentication needed.
 
