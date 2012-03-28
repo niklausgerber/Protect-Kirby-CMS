@@ -1,0 +1,67 @@
+/* Typography */
+
+body {
+	color: #232323;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.6em;
+}
+
+p {
+	max-width: 698px;
+	margin: 0 0 2.3em;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	line-height: 1.41em;
+	padding-bottom: 0.33em;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+h1 {
+	font-size: 2.5005em;
+}
+
+h2 {
+	font-size: 1.667em;
+}
+
+h3, h4 {
+	font-size: 1.25em;
+}
+
+/* Form Design */
+
+input[type=text], input[type=password] {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-border-radius:0;
+	-webkit-appearance:none;
+	width: 100%;
+	height: 1.667em;
+	padding: 0;
+	font: 1.667em Georgia, "Times New Roman", Times, serif;
+}
+
+input[type=submit] {
+	background:#EEE;
+	background:-moz-linear-gradient(top,#F7F7F7,#E6E6E6);
+	background:-webkit-gradient(linear,left top,left bottom,from(#F7F7F7),to(#E6E6E6));
+	border:solid .1em #666;
+	border-radius:.3em;
+	-moz-border-radius:.3em;
+	-webkit-border-radius:.3em;
+	cursor:pointer;
+	font-size:90%;
+	font-weight:700;
+	height:2em;
+	padding:0 .5em;
+	text-shadow:#FFF 0 .1em 0;
+	-moz-text-shadow:#FFF 0 .1em 0;
+	-webkit-text-shadow:#FFF 0 .1em 0;
+	margin-top: 0.5em;
+}
+	
+input[type=submit]:hover {
+	border-color:#222
+}
