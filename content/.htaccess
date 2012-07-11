@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-
-RewriteEngine on
-RewriteRule \.txt$ /nirvana [R=301,L]
-
-</IfModule>
