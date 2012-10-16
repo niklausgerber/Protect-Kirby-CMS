@@ -17,7 +17,7 @@ define('TIMEOUT_MINUTES', 10);
 
 // This parameter is only useful when TIMEOUT_MINUTES is not zero
 // true - timeout time from last activity, false - timeout time from login
-define('TIMEOUT_CHECK_ACTIVITY', flalse);
+define('TIMEOUT_CHECK_ACTIVITY', false);
 
 // setting end
 
